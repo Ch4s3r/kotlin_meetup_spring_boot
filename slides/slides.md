@@ -11,8 +11,11 @@ layout: two-cols
 
 # About me
 
-
 <v-clicks>
+
+Name: Patrick Lamprecht aka "Lampe"
+
+Hobbies:
 
 Via Ferrata fan
 
