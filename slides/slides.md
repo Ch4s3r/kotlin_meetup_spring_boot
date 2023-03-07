@@ -3,7 +3,43 @@ layout: cover
 background: https://upload.wikimedia.org/wikipedia/commons/3/37/Kotlin_Icon_2021.svg
 ---
 
-# Welcome to Kotlin meetup
+# Welcome @ Kotlin meetup
+
+---
+layout: two-cols
+---
+
+# About me
+
+
+<v-clicks>
+
+Via Ferrata fan
+
+Loves cats
+
+<img src="cat.png" class="h-60 rounded shadow" />
+
+Likes low level languages like Rust
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+Pizza lover / Hobby pizza maker
+
+<img src="pizza.png" class="h-50 rounded shadow" />
+
+
+Working at and sponsored by
+
+<img src="george.png" class="h-30 rounded shadow" />
+
+Age at george: ~4 years
+
+</v-clicks>
 
 ---
 
@@ -467,6 +503,30 @@ To use the main method for a test set the useMainMethod attribute of @SpringBoot
 
 ---
 
+# Metrics
+
+<v-clicks>
+
+Spring Cloud Sleuth allows you to aggregate and track log entries as requests move through a distributed software system
+
+Spring cloud sleuth got removed and replaced with micrometer
+
+</v-clicks>
+
+---
+
+# Debugging reactive context
+
+It's finally possible to evaluate expressions in Intellij when using webflux and Kotlin coroutines 🎉
+
+---
+layout: center
+---
+
+# Demo
+
+---
+
 # Problem+json
 
 
@@ -499,30 +559,6 @@ Content-Type: application/problem+json
 <!--
 https://www.sivalabs.in/spring-boot-3-error-reporting-using-problem-details/
 -->
-
----
-layout: center
----
-
-# Demo
-
----
-
-# Metrics
-
-<v-clicks>
-
-Spring Cloud Sleuth allows you to aggregate and track log entries as requests move through a distributed software system
-
-Spring cloud sleuth got removed and replaced with micrometer
-
-</v-clicks>
-
----
-
-# Debugging reactive context
-
-It's finally possible to evaluate expressions in Intellij when using webflux and Kotlin coroutines 🎉
 
 ---
 layout: center
