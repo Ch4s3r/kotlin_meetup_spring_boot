@@ -1,0 +1,6 @@
+#dev
+#details
+spring:
+  webflux:
+    problemdetails:
+      enabled: true
