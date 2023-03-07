@@ -172,6 +172,36 @@ product.devEnvironment=true
 ```
 
 </v-click>
+
+---
+
+# Configuration properties dependencies
+
+<v-clicks>
+
+Kotlin Annotation Processor
+
+build.gradle.kts
+```kotlin
+plugins {
+    kotlin("kapt") version "1.7.22"
+}
+```
+
+```kotlin
+dependencies {
+    kapt("org.springframework.boot:spring-boot-configuration-processor")
+}
+```
+
+Kapt is in maintenance mode
+
+Still gets security updates
+
+Hopefully spring will support KSP in the future
+
+</v-clicks>
+
 ---
 
 # spring.factories is no more
